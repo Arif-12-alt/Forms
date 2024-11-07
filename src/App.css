@@ -1,0 +1,209 @@
+ 
+.form {
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #fff;
+    display: block;
+    padding: 1rem;
+    max-width: 350px;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .form-title {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  
+  .input-container input, .form button {
+    outline: none;
+    border: 1px solid #e5e7eb;
+    margin: 8px 0;
+  }
+  
+  .input-container input {
+    background-color: #fff;
+    padding: 1rem;
+    padding-right: 3rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    width: 300px;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+  .submit {
+    display: block;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    background-color: #4F46E5;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+  }
+  
+  .signup-link {
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+  }
+  
+  .signup-link a {
+    text-decoration: underline;
+  }
+  .spam{
+    color: red;
+  }
+  .spoil{
+    color: red;
+  }
+  .spoiled{
+    color: green;
+    margin-left: 90px;
+  } 
+ 
+   body{
+    background-image: url(https://cdn.oneesports.gg/cdn-data/wp-content/uploads/2019/05/FreeFire.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 350px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  margin: 0 auto;
+  background-image: url(https://downloadr2.apkmirror.com/wp-content/uploads/2023/01/79/63be51ecc11fb.png);
+  background-position: center;
+  background-repeat: no-repeat;
+    background-size: cover;
+max-width: 28%;
+margin-top: 30px;
+}
+
+.title {
+  font-size: 28px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.title::before,.title::after {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  left: 0px;
+  background-color: rgb(13, 165, 192);
+}
+
+.title::before {
+  width: 18px;
+  height: 18px;
+  background-color: rgb(243, 15, 15);
+}
+
+.title::after {
+  width: 18px;
+  height: 18px;
+  animation: pulse 1s linear infinite;
+}
+
+.message, .signin {
+  color:white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.signin {
+  text-align: center;
+}
+
+.signin a {
+  color: rgb(10, 199, 205);
+}
+
+.signin a:hover {
+  text-decoration: underline orangered;
+}
+.form label {
+  position: relative;
+}
+
+.form label .input {
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  outline: 0;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-left: -10px;
+}
+
+.form label .input + span {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  color: white;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+.form label .input:placeholder-shown + span {
+  top: 15px;
+  font-size: 0.9em;
+}
+
+.form label .input:focus + span,.form label .input:valid + span {
+  top: 30px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.form label .input:valid + span {
+  color: rgb(248, 114, 137);
+}
+
+.submit {
+  border: none;
+  outline: none;
+  background-color: rgb(232, 237, 239);
+  border-radius: 10px;
+  color: black;
+  font-size: 16px;
+  transform: .3s ease;
+  padding: 10px 40px 10px 40px;
+  font-weight: 600;
+}
+
+.submit:hover {
+  background-color: rgb(16, 201, 238);
+}
+.error{
+  color: rgb(241, 246, 247);
+  margin-left: 200px;
+  font-family: arial;
+  font-weight: 600;
+}
